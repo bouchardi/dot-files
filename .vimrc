@@ -6,6 +6,7 @@ source ~/.vim_runtime/vimrcs/plugins_config.vim
 source ~/.vim_runtime/vimrcs/extended.vim
 
 set number
+set mouse=a
 
 try
 source ~/.vim_runtime/my_configs.vim
