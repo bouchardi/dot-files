@@ -166,3 +166,4 @@ if [ -f '/home/isabelle/google-cloud-sdk/path.bash.inc' ]; then source '/home/is
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/home/isabelle/google-cloud-sdk/completion.bash.inc' ]; then source '/home/isabelle/google-cloud-sdk/completion.bash.inc'; fi
+source <(kubectl completion bash)
